@@ -21,7 +21,7 @@ keyboard_main = {
     "one_time" : False,
     "buttons" : [
         [get_but('Музыка', 'positive'), get_but('Подкасты', 'positive')],
-        [get_but('Предсказание', 'positive'), get_but('ebal vk rot', 'positive')]
+        [get_but('Предсказание', 'positive'), get_but('Мяу', 'positive')]
     ]
 }
 keyboard_main = json.dumps(keyboard_main, ensure_ascii = False).encode('utf-8')
